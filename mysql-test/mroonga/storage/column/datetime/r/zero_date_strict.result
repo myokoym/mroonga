@@ -11,7 +11,7 @@ timestamps	CREATE TABLE `timestamps` (
   PRIMARY KEY (`id`)
 ) ENGINE=Mroonga DEFAULT CHARSET=utf8
 SET sql_mode='STRICT_TRANS_TABLES';
-INSERT INTO timestamps (create_dt) VALUES ("0000-00-00 00:00:00");
+INSERT INTO timestamps (create_dt) VALUES ("1990-00-00 00:00:00");
 ERROR 22003: Out of range value for column 'create_dt' at row 1
 SET sql_mode=default;
 SELECT * FROM timestamps;
