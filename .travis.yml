@@ -22,6 +22,7 @@ matrix:
     - env: MYSQL_VERSION=mariadb-10.0.20 MROONGA_BUNDLED=yes
 #    - env: MYSQL_VERSION=mariadb-10.0.20 MROONGA_BUNDLED=yes MROONGA_TEST_EMBEDDED=yes
 #    - env: MYSQL_VERSION=mariadb-10.1.5
+sudo: required
 install:
   - tools/travis/install.sh
 before_script:
